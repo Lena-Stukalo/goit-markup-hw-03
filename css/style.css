@@ -216,6 +216,7 @@ a {
 .our-team-list {
   display: flex;
   justify-content: center;
+  margin-right: -30px;
 }
 
 .our-team-item {
@@ -224,7 +225,7 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
-  width: calc((100% - 90px) / 4);
+  width: calc((100% - 120px) / 4);
 }
 .our-team-item:not(:last-child) {
   margin-right: 30px;
@@ -275,12 +276,13 @@ a {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
 }
 .project-item {
   background-color: var(--prirmary-backrgaund-color);
 
   box-sizing: border-box;
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 90px) / 3);
 }
 .project-item:not(:nth-child(3n)) {
   margin-right: 30px;
